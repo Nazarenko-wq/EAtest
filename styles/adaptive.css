@@ -1,0 +1,109 @@
+@media (max-width: 1200px) {
+  body {
+    justify-content: center;
+  }
+  body header .header_wrapper .logo {
+    padding: 80px 0;
+  }
+  body header .header_wrapper .left_corner, body header .header_wrapper .right_corner {
+    display: none;
+  }
+  body header .header_wrapper .left_corner2, body header .header_wrapper .right_corner2 {
+    display: block;
+  }
+  body main .main_wrapper .title {
+    font-size: 36px;
+    line-height: 37.44px;
+    padding: 67px 0 17px 0;
+  }
+  body main .main_wrapper .subtitle {
+    max-width: 300px;
+    margin-bottom: 42px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  body main .main_wrapper .time_block {
+    margin-bottom: 45px;
+    gap: 12px;
+  }
+  body main .main_wrapper .time_block .item_wrap .count {
+    font-size: 36px;
+  }
+  body main .main_wrapper .time_block .item_wrap .item_subtitle {
+    background-image: url(../assets/img/item_bg2.png);
+    width: 64px;
+    height: 40px;
+    font-size: 12px;
+  }
+  body main .main_wrapper .time_block .item_wrap .item_subtitle .short_text {
+    display: block;
+  }
+  body main .main_wrapper .time_block .item_wrap .item_subtitle .long_text {
+    display: none;
+  }
+  body main .main_wrapper .time_block .separate {
+    font-size: 36px;
+  }
+  body main .main_wrapper .btn_block {
+    margin-bottom: 172px;
+  }
+  body main .main_wrapper .btn_block .title_btn {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+  body footer .footer_wripper {
+    padding: 59px 0 60px;
+  }
+  body footer .footer_wripper form .email {
+    width: 360px;
+    height: 41px;
+    padding: 10px 20px;
+  }
+  body footer .footer_wripper form .email::-moz-placeholder {
+    font-size: 14px;
+  }
+  body footer .footer_wripper form .email:-ms-input-placeholder {
+    font-size: 14px;
+  }
+  body footer .footer_wripper form .email::placeholder {
+    font-size: 14px;
+  }
+  body footer .footer_wripper form .input_btn {
+    width: 33px;
+    height: 33px;
+    right: 5px;
+  }
+}
+@media (max-width: 1200px) and (max-width: 767px) {
+  body header .header_wrapper .logo {
+    padding: 60px 0 46px;
+  }
+  body header .header_wrapper .logo a img {
+    width: 128px;
+    height: 40px;
+  }
+  body header .header_wrapper .left_corner2, body header .header_wrapper .right_corner2 {
+    display: none;
+  }
+  body header .header_wrapper .left_corner3, body header .header_wrapper .right_corner3 {
+    display: block;
+  }
+  body main .main_wrapper .title {
+    padding: 0px 0 15px 0;
+  }
+  body main .main_wrapper .time_block {
+    gap: 4px;
+  }
+  body main .main_wrapper .btn_block {
+    margin-bottom: 88px;
+  }
+  body main .main_wrapper .btn_block .title_btn {
+    margin-left: 20px;
+  }
+  body footer .footer_wripper {
+    padding: 50px 0 50px;
+  }
+  body footer .footer_wripper form .email {
+    width: 280px;
+  }
+}/*# sourceMappingURL=adaptive.css.map */

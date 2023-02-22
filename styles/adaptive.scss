@@ -1,0 +1,161 @@
+
+@media (max-width: 1200px) {
+    body {
+        justify-content: center;
+        header {
+            .header_wrapper {
+                .logo {
+                    padding: 80px 0;
+                }
+                .left_corner, .right_corner {
+                    display: none;
+                }
+                
+                .left_corner2, .right_corner2 {
+                    display: block;
+                }
+            }
+        }
+    
+        main {
+            .main_wrapper {
+    
+                .title {
+                    font-size: 36px;
+                    line-height: 37.44px;
+                    padding: 67px 0 17px 0;
+                }
+    
+                .subtitle {
+                    max-width: 300px;
+                    margin-bottom: 42px;
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+    
+                .time_block {
+                    margin-bottom: 45px;
+                    gap: 12px;
+    
+                    .item_wrap {
+    
+                        .count {
+                            font-size: 36px;
+                        }
+    
+                        .item_subtitle {
+                            background-image: url(../assets/img/item_bg2.png);
+                            width: 64px;
+                            height: 40px;
+                            font-size: 12px;
+
+                            .short_text {
+                                display: block;
+                            }
+
+                            .long_text {
+                                display: none;
+                            }
+                        }
+                    }
+    
+                    .separate {
+                        font-size: 36px;
+                    }
+                }
+    
+                .btn_block {
+                    margin-bottom: 172px;
+    
+                    .title_btn {
+                        font-size: 16px;
+                        margin-bottom: 12px;
+                    }
+                }
+            }
+        }
+    
+        footer {
+            .footer_wripper {
+                padding: 59px 0 60px;
+    
+                form {
+    
+                    .email {
+                        width: 360px;
+                        height: 41px;
+                        padding: 10px 20px;
+    
+                        &::placeholder {
+                            font-size: 14px;
+                        }
+                    }
+    
+                    .input_btn {
+                        width: 33px;
+                        height: 33px;
+                        right: 5px;
+                    }
+                        
+                }
+            }
+        }
+
+        @media (max-width: 767px) {
+            header {
+                .header_wrapper {
+                    .logo {
+                        padding: 60px 0 46px;
+    
+                        a {
+                            img {
+                                width: 128px;
+                                height: 40px;
+                            }
+                        }
+                    }
+                    .left_corner2, .right_corner2 {
+                        display: none;
+                    }
+                    
+                    .left_corner3, .right_corner3 {
+                        display: block;
+                    }
+                }
+            }
+        
+            main {
+                .main_wrapper {
+        
+                    .title {
+                        padding: 0px 0 15px 0;
+                    }
+        
+                    .time_block {
+                        gap: 4px;
+                    }
+        
+                    .btn_block {
+                        margin-bottom: 88px;
+        
+                        .title_btn {
+                            margin-left: 20px;
+                        }
+                    }
+                }
+            }
+        
+            footer {
+                .footer_wripper {
+                    padding: 50px 0 50px;
+        
+                    form {
+                        .email {
+                            width: 280px;
+                        } 
+                    }
+                }
+            }
+        }    
+    }
+}    
